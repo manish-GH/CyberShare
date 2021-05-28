@@ -2,7 +2,7 @@
 
 CyberShare is a social media app developed using ReactJs and Firebase
 
-**Click [Here](https://nostalgic-morse-36cdc3.netlify.app/) to give it a try or watch the [Demo](https://youtu.be/XXJeTTYVcpw)**
+**Click [Here](https://cybershare.netlify.app/) to give it a try or watch the [Demo](https://youtu.be/XXJeTTYVcpw)**
 
 
 

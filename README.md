@@ -54,7 +54,7 @@ User can go to their profile or visit other profiles by clicking on the username
 - **updateUserProfile** - This provides the function to update the user profile when the user follows or unfollows an account.
 
 
-## Setup (deveopment)
+## Setup 
 
 - Clone the repo, and cd into it
 - Install all the dependcies from package.json

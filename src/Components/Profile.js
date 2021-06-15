@@ -35,6 +35,21 @@ export const Profile = () => {
       setSuggestions,
       setPhotos
     );
+
+    async function getProfile() {
+      const result = await firebaseApp
+        .firestore()
+        .collection("users")
+        .where("username", "==", username)
+        .get();
+      const user = result.docs.map((item) => ({
+        ...item.data(),
+        docId: item.id,
+      }));
+      setUserProfile(user[0]);
+    }
+
+    getProfile();
   }
 
   async function handleUnfollow() {
@@ -57,6 +72,21 @@ export const Profile = () => {
       setSuggestions,
       setPhotos
     );
+
+    async function getProfile() {
+      const result = await firebaseApp
+        .firestore()
+        .collection("users")
+        .where("username", "==", username)
+        .get();
+      const user = result.docs.map((item) => ({
+        ...item.data(),
+        docId: item.id,
+      }));
+      setUserProfile(user[0]);
+    }
+
+    getProfile();
   }
 
   useEffect(() => {
